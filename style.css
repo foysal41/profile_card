@@ -34,8 +34,26 @@
 .sub_title p {
   color: #777;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .user_bio p {
   font-size: 14px;
+}
+
+.user_status {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.user_status strong {
+  display: block;
+  font-size: 15px;
+  color: #222;
+  font-weight: 800;
+}
+.user_status span {
+  color: #121212;
+  font-size: 22px;
+  font-weight: bold;
 }
